@@ -1,0 +1,339 @@
+ "Version": "5.49",
+      "ReleaseNotes": "Nova Atualização!",
+      "UrlUpdate": "https://bitbin.it/jOsUm4Rf/raw/",
+      "Sms": "https://t.me/KurtzSSH",
+      "EmailFeedback": "https://t.me/kurtzsshpremium",
+      "UrlContato": "https://t.me/KurtzSSH",
+      "UrlTermos": "",
+      "CheckUser": "true",
+      "Udp": [
+      {
+      "Porta": "7300"
+      }
+      ],
+      "Servers": [
+      {
+      "Name": "KurtzSSH Premium",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+          "ServerIP": "kurtzssh.shop",
+      "CheckUser": "user.kurtzssh.shop:5454/checkUser",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+      }
+      ],
+      "Networks": [
+      {
+      "Name": "Vivo SSH 01",
+      "FLAG": "vivo",
+      "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo SSH 02",
+      "FLAG": "vivo",
+      "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo SSH 03",
+      "FLAG": "vivo",
+      "Payload": "[split] ACL http:// stats.g.doubleclick.net HTTP/1.3[crlf] http:// www.comarkinstruments.net[split][crlf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo SSH 04",
+      "FLAG": "vivo",
+      "Payload": "[split][lf]TRACE / HTTP/1.1[crlf]Host: vivo.tl[crlf]Upgrade: WebSocketExtensions[crlf]Connection: Upgrade-Insecure-Requests[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo SSH 05",
+      "FLAG": "vivo",
+      "Payload": "delay_split] ACL / HTTP 1.1[crlf]Host : [host][crlf]Host :line.me[crlf]Connection :Keep-Alive[crlf]Connection :Keep-Alive[crlf]Proxy-Connection : K e e p - A l i v e[crlf] V E M   P R A  T R O P A   D A   M E G G A   C L O U D [crlf]Connection:Upgrade[crlf][crlf]Sec-Websocket-Version :13[crlf]User-Agent:[ua][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo SSH 06",
+      "FLAG": "vivo",
+      "Payload": "delay_split][crlf]ACL / HTTP/1.1[crlf]Host:whatsapp.com.vivoon.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176#kurtzssh.shop#209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo SSH 07",
+      "FLAG": "vivo",
+      "Payload": "UPDATE / HTTP/1.1[lf]Host: www.vivoplataformadigital.com.br;www.fundacaotelefonicavivo.org.br[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176#kurtzssh.shop#209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Pre Turbo 01",
+      "FLAG": "vivo",
+      "Payload": "ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=api.digital.cname.vivo.com.br;api.digital.vivo.com.br;autenticaint.cname.vivo.com.br;autenticaint.vivo.com.br;auth.vivo.com.br;celular.vivo.com.br;gedoc.cname.vivo.com.br;lojaempresas.vivo.com.br;recarga.vivo.com.br][lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.99.1#104.18.99.2#104.18.99.3#104.18.99.4#104.18.99.5#104.18.99.6#104.18.99.7#104.18.99.8#104.18.99.9#104.18.99.10#104.18.99.11#104.18.99.12#104.18.99.13#104.18.99.14#104.18.99.15#104.18.99.16#104.18.99.17#104.18.99.18#104.18.99.19#104.18.99.20#104.18.99.21#104.18.99.22#104.18.99.23#104.18.99.24",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Pre Turbo 02",
+      "FLAG": "vivo",
+      "Payload": "ACL / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Pre Turbo 03",
+      "FLAG": "vivo",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][split][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "proxy.kurtzssh.shop#vivomusica.vivo.com.br#104.18.34.21#104.18.99.70#141.193.213.11#104.18.33.113#104.17.64.225#104.19.240.93#104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Easy 01",
+      "FLAG": "vivo",
+      "Payload": "GET /home.html HTTP/1.1[crlf]Host: [rotate=proxy.kurtzssh.shop;kurtzssh.shop][crlf]Origin: https://www.google.com, http://www.google.com[crlf]ser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.150.8#104.18.7.41",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Easy 02",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#172.64.144.109#104.18.43.147#104.18.7.41",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Easy 03",
+      "FLAG": "vivo",
+      "Payload": "OPTIONS- // HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vivomusica.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Controle 01",
+      "FLAG": "vivo",
+      "Payload": "[split]ACL / HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.41#104.18.7.41#104.17.70.206",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Controle 02",
+      "FLAG": "vivo",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Tim Expirado 01",
+      "FLAG": "tim",
+      "Payload": "ACL / HTTP/1.3[crlf]Host: [rotate=ubisoft.c6bank.com.br;api.of.c6bank.com.br;boleto.c6bank.com.br;proxy-homebroker.c6bank.com.br;homebroker.c6bank.com.br;mtls.of.c6bank.com.br;web.of.c6bank.com.br;teste.mail.c6bank.com.br;descomplica.com.br;wtaphf.descomplica.com.br;aidata.descomplica.com.br;bi.descomplica.com.br;cms-assets-p.c6bank.com.br;dataacademy.descomplica.com.br;cdn.c6bank.com.br;mobile.c6bank.app;mobile.hom.c6bank.app;api.sandbox.c6bank.com.br;gitlab.com;academy.descomplica.com.br;pre-onboarding-h.c6bank.app;www.c6bank.app;assets.c6bank.app;checkv.c6bank.app;pre-onboarding-p.c6bank.app;app.sandbox.c6bank.com.br;support.zen-deezer.com;auth.sandbox.c6bank.com.br;checkv-h.c6bank.app;mtls.sandbox.c6bank.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: [rotate=kurtzssh.shop;kurtzssh.shop][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.28.182#104.19.239.25#104.19.242.25#104.16.51.111#104.19.241.93#104.19.240.93#162.159.152.26#162.159.153.238#13.33.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149#172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Tim Expirado 02",
+      "FLAG": "tim",
+      "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.154.143",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Tim Saldo Valido Rotate 01",
+      "FLAG": "tim",
+      "Payload": "ACL / HTTP/1.3[crlf]Host: [rotate=ubisoft.c6bank.com.br;api.of.c6bank.com.br;boleto.c6bank.com.br;proxy-homebroker.c6bank.com.br;homebroker.c6bank.com.br;mtls.of.c6bank.com.br;web.of.c6bank.com.br;teste.mail.c6bank.com.br;descomplica.com.br;wtaphf.descomplica.com.br;aidata.descomplica.com.br;bi.descomplica.com.br;cms-assets-p.c6bank.com.br;dataacademy.descomplica.com.br;cdn.c6bank.com.br;mobile.c6bank.app;mobile.hom.c6bank.app;api.sandbox.c6bank.com.br;gitlab.com;academy.descomplica.com.br;pre-onboarding-h.c6bank.app;www.c6bank.app;assets.c6bank.app;checkv.c6bank.app;pre-onboarding-p.c6bank.app;app.sandbox.c6bank.com.br;support.zen-deezer.com;auth.sandbox.c6bank.com.br;checkv-h.c6bank.app;mtls.sandbox.c6bank.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: [rotate=proxy.kurtzssh.shop;kurtzssh.shop][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.152.140#104.19.241.93#104.19.240.93#104.18.99.70#104.18.98.70#172.64.152.140",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Tim Valida e Expirado 01",
+      "FLAG": "tim",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: details-page-api-docs.altmetric.com[crlf][crlf][delay_split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Tim Valida e Expirado 02",
+      "FLAG": "tim",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: mtls.sandbox.c6bank.com.br[crlf][crlf][delay_split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.152.140",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Tim Valido DDD91 01",
+      "FLAG": "tim",
+      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.240.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Tim Valido DDD91 02",
+      "FLAG": "tim",
+      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: proxy.kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.19.241.93",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Tim Valida e Expirado Rotate 02",
+      "FLAG": "tim",
+      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: proxy.kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225#172.64.154.143#104.16.53.111#186.233.114.253",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Tim Valida e Expirado Rotate 03",
+      "FLAG": "tim",
+      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: proxy.kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.99.70",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },      
+      {
+      "Name": "Claro Direct 01",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Claro Waze 02",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "209.14.70.176",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+      },
+      {
+      "Name": "Claro Twitter 03",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "209.14.70.176",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+      },
+      {
+      "Name": "Claro Direct 04",
+      "FLAG": "claro",
+      "Payload": "POST HTTP/1.1[crlf]Host: www.waze.com[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "209.14.70.176",
+      "ProxyPort": "80",
+      "Info": "Direct"
+      },
+      {
+      "Name": "Claro Música 05",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "musicaclaro.com.br",
+      "TlsIP": "209.14.70.176",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+      },
+      {
+      "Name": "Claro Whatsapp 06",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.web.whatsapp.com",
+      "TlsIP": "209.14.70.176",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+      },
+      {
+      "Name": "Servidor de Teste",
+      "FLAG": "vivo",
+      "Payload": "UPDATE / HTTP/1.1[lf]Host: www.vivoplataformadigital.com.br;www.fundacaotelefonicavivo.org.br[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "179.127.16.138#games.kurtzcdn.online#179.127.16.138",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      }
+ ]
+}
