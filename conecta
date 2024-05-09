@@ -1,7 +1,7 @@
 {
-      "Version": "5.52",
-      "ReleaseNotes": "Nova Atualização!",
-      "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
+      "Version": "5.53",
+      "ReleaseNotes": "Nova Atualização",
+      "UrlUpdate": "https://bitbin.it/jOsUm4Rf/raw/",
       "Sms": "https://t.me/KurtzSSH",
       "EmailFeedback": "https://t.me/kurtzsshpremium",
       "UrlContato": "https://t.me/KurtzSSH",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
           "ServerIP": "kurtzssh.shop",
-      "CheckUser": "http://user.kurtzssh.shop:5454/checkUser",
+      "CheckUser": "user.kurtzssh.shop:5454/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
@@ -32,7 +32,7 @@
       "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -42,7 +42,7 @@
       "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -52,7 +52,7 @@
       "Payload": "[split] ACL http:// stats.g.doubleclick.net HTTP/1.3[crlf] http:// www.comarkinstruments.net[split][crlf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -62,17 +62,17 @@
       "Payload": "[split][lf]TRACE / HTTP/1.1[crlf]Host: vivo.tl[crlf]Upgrade: WebSocketExtensions[crlf]Connection: Upgrade-Insecure-Requests[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo SSH 05",
       "FLAG": "vivo",
-      "Payload": "delay_split] ACL / HTTP 1.1[crlf]Host : [host][crlf]Host :line.me[crlf]Connection :Keep-Alive[crlf]Connection :Keep-Alive[crlf]Proxy-Connection : K e e p - A l i v e[crlf] V E M   P R A  T R O P A   D A   M E G G A   C L O U D [crlf]Connection:Upgrade[crlf][crlf]Sec-Websocket-Version :13[crlf]User-Agent:[ua][crlf]",
+      "Payload": "delay_split] ACL / HTTP 1.1[crlf]Host : [host][crlf]Host :line.me[crlf]Connection :Keep-Alive[crlf]Connection :Keep-Alive[crlf]Proxy-Connection : K e e p - A l i v e[crlf] V E M   P R A  T R O P A   D A   M E G G A   C L O U D [crlf]Connection:Upgrade[crlf][crlf]Sec-Websocket-Version :13[crlf]User-Agent:[ua][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -82,7 +82,7 @@
       "Payload": "delay_split][crlf]ACL / HTTP/1.1[crlf]Host:whatsapp.com.vivoon.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176#kurtzssh.shop#209.14.70.176",
+      "ProxyIP": "209.14.70.37#kurtzssh.shop#209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -92,7 +92,7 @@
       "Payload": "UPDATE / HTTP/1.1[lf]Host: www.vivoplataformadigital.com.br;www.fundacaotelefonicavivo.org.br[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176#kurtzssh.shop#209.14.70.176",
+      "ProxyIP": "209.14.70.37#kurtzssh.shop#209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -272,7 +272,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -281,7 +281,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.waze.com",
-      "TlsIP": "209.14.70.176",
+      "TlsIP": "209.14.70.37",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -291,7 +291,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
-      "TlsIP": "209.14.70.176",
+      "TlsIP": "209.14.70.37",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -302,7 +302,7 @@
       "Payload": "POST HTTP/1.1[crlf]Host: www.waze.com[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.176",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Direct"
       },
@@ -311,7 +311,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "musicaclaro.com.br",
-      "TlsIP": "209.14.70.176",
+      "TlsIP": "209.14.70.37",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -321,7 +321,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.web.whatsapp.com",
-      "TlsIP": "209.14.70.176",
+      "TlsIP": "209.14.70.37",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
