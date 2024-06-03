@@ -1,5 +1,5 @@
 {
-      "Version": "5.59",
+      "Version": "5.60",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -269,12 +269,12 @@
       {
       "Name": "Claro Direct 01",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#PATCH / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#HEAD / HTTP/1.1[crlf]Host: [random=api.whatsapp.com;m.twitter.com;m.waze.com;web.whatsapp.com;media.whatsapp.net;c.whatsapp.net;twitter.com;dns.web.whatsapp.com;static.whatsapp.com;business.whatsapp.com;web.whatsapp.com;dns.web.whatsapp.com;m.twitter.com;m.waze.com;waze.com;www.waze.com][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=support.twitter.com;help.twitter.com][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct se"
       },
       {
       "Name": "Claro Waze 02",
@@ -327,14 +327,14 @@
       "Info": "Ssl"
       },
       {
-      "Name": "Servidor de Teste",
-      "FLAG": "vivo",
-      "Payload": "UPDATE / HTTP/1.1[lf]Host: www.vivoplataformadigital.com.br;www.fundacaotelefonicavivo.org.br[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf][lf]",
+      "Name": "Claro Security",
+      "FLAG": "claro",
+      "Payload": "GET http://m.claro.com.br HTTP/1.0[crlf]Host: http://m.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.138#games.kurtzcdn.online#179.127.16.138",
+      "ProxyIP": "209.14.70.37#kurtzssh.shop",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
       }
  ]
 }
