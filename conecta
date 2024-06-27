@@ -1,5 +1,5 @@
 {
-      "Version": "5.66",
+      "Version": "5.67",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -257,12 +257,12 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Valida e Expirado Rotate 04",
+      "Name": "Tim Valida 02",
       "FLAG": "tim",
       "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: browser-update.org,unpkg.com,www.google.com[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]PCVPN / HTTP/1.1[lf]Host: www.google.com[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.240.93",
+      "ProxyIP": "104.19.240.93#104.19.241.93",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
