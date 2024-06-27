@@ -1,5 +1,5 @@
 {
-      "Version": "5.67",
+      "Version": "5.68",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -132,7 +132,7 @@
       "Payload": "GET /home.html HTTP/1.1[crlf]Host: [rotate=proxy.kurtzssh.shop;kurtzssh.shop][crlf]Origin: https://www.google.com, http://www.google.com[crlf]ser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.64.150.8#104.18.7.41",
+      "ProxyIP": "104.18.7.41#104.18.6.41#172.64.150.8#vivomusica.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
