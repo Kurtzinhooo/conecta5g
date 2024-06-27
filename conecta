@@ -1,5 +1,5 @@
 {
-      "Version": "5.60",
+      "Version": "5.61",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
           "ServerIP": "kurtzssh.shop",
-      "CheckUser": "user.kurtzssh.shop:5454/checkUser",
+      "CheckUser": "http://user.kurtzssh.shop:5454/checkUser",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
