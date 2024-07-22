@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
           "ServerIP": "kurtzssh.shop",
-      "CheckUser": "http://user.kurtzssh.shop:5454/checkUser",
+      "CheckUser": "",
       "ServerPort": "80",
       "SSLPort": "443",
       "USER": "",
