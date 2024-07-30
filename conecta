@@ -1,5 +1,5 @@
 {
-      "Version": "5.71",
+      "Version": "5.72",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -139,10 +139,10 @@
       {
       "Name": "Vivo Easy 02",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "BASELINE-CONTROL ws://kurtzssh.shop HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
+      "ProxyIP": "assine.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
