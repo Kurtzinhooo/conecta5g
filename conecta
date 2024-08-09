@@ -1,5 +1,5 @@
 {
-      "Version": "5.73",
+      "Version": "5.74",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -39,7 +39,7 @@
       {
       "Name": "Vivo SSH 02",
       "FLAG": "vivo",
-      "Payload": "[split][lf]ACL / HTTP/1.1[crlf]Host: portalrecarga.vivo.com.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "Payload": "[split]PATCH / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Host: 5563745.group45.sites.hubspot.net;5840292.group42.sites.hubspot.net;714341g41.secure0121.hubspot.net[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]Service: Multi-spectro[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -49,7 +49,7 @@
       {
       "Name": "Vivo SSH 03",
       "FLAG": "vivo",
-      "Payload": "[split] ACL http:// stats.g.doubleclick.net HTTP/1.3[crlf] http:// www.comarkinstruments.net[split][crlf][lf]",
+      "Payload": "[delay_split]GET / HTTP1.1 [rotate= portalrecarga.vivo.com.br;www.apple.com;roblox.com;api-oyon.viu.com;twitch.tv;assine.vivo.com.br;wazer.com;soundwaze.com] / [protocol][crlf][raw][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -69,7 +69,7 @@
       {
       "Name": "Vivo SSH 05",
       "FLAG": "vivo",
-      "Payload": "delay_split] ACL / HTTP 1.1[crlf]Host : [host][crlf]Host :line.me[crlf]Connection :Keep-Alive[crlf]Connection :Keep-Alive[crlf]Proxy-Connection : K e e p - A l i v e[crlf] V E M   P R A  T R O P A   D A   M E G G A   C L O U D [crlf]Connection:Upgrade[crlf][crlf]Sec-Websocket-Version :13[crlf]User-Agent:[ua][crlf]",
+      "Payload": "MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -79,10 +79,10 @@
       {
       "Name": "Vivo SSH 06",
       "FLAG": "vivo",
-      "Payload": "delay_split][crlf]ACL / HTTP/1.1[crlf]Host:whatsapp.com.vivoon.br[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]",
+      "Payload": "ACL http://1.1.1.1rotate= buzzfeed.com;mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com; myspace.com;mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.37#kurtzssh.shop#209.14.70.37",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -269,7 +269,9 @@
       {
       "Name": "Claro Direct 01",
       "FLAG": "claro",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=support.twitter.com;help.twitter.com][lf]",
+      "Payload": "PATCH http://minhaclaro.claro.com.br HTTP/1.1\r
+Host: portal.clarorecompensas.com.br\r
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.3; en-us ; LS670 Build/GRI40) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1/UCBrowser/8.6.1.262/145/355[crlf][raw][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -329,12 +331,12 @@
       {
       "Name": "Claro Security",
       "FLAG": "claro",
-      "Payload": "GET http://m.claro.com.br HTTP/1.0[crlf]Host: http://m.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+      "Payload": "PROPOST /authentication HTTP/1.1\nX-CONNECTIVITY: true\r\n\r\nX-AUTHORIZATION: br.com.mobicare.clarofree\r\n\r\nContent-Type: application/json\r\n\r\nX-APP: claro.com.br[crlf]Content-Length: none\r\nHost: cfree.clarosgvas.mobicare.com.br\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\n\r\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.37#kurtzssh.shop",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "Proxy"
       }
  ]
 }
