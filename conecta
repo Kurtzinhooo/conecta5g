@@ -1,5 +1,5 @@
 {
-      "Version": "5.76",
+      "Version": "5.77",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -179,10 +179,10 @@
       {
       "Name": "Tim Expirado 01",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.3[crlf]Host: [rotate=ubisoft.c6bank.com.br;api.of.c6bank.com.br;boleto.c6bank.com.br;proxy-homebroker.c6bank.com.br;homebroker.c6bank.com.br;mtls.of.c6bank.com.br;web.of.c6bank.com.br;teste.mail.c6bank.com.br;descomplica.com.br;wtaphf.descomplica.com.br;aidata.descomplica.com.br;bi.descomplica.com.br;cms-assets-p.c6bank.com.br;dataacademy.descomplica.com.br;cdn.c6bank.com.br;mobile.c6bank.app;mobile.hom.c6bank.app;api.sandbox.c6bank.com.br;gitlab.com;academy.descomplica.com.br;pre-onboarding-h.c6bank.app;www.c6bank.app;assets.c6bank.app;checkv.c6bank.app;pre-onboarding-p.c6bank.app;app.sandbox.c6bank.com.br;support.zen-deezer.com;auth.sandbox.c6bank.com.br;checkv-h.c6bank.app;mtls.sandbox.c6bank.com.br][crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: [rotate=kurtzssh.shop;kurtzssh.shop][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "ACL http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.28.182#104.19.239.25#104.19.242.25#104.16.51.111#104.19.241.93#104.19.240.93#162.159.152.26#162.159.153.238#13.33.252.3#104.18.99.70#104.18.98.70#172.64.154.143#104.17.64.225#74.119.118.149#172.64.152.140#172.65.251.78#104.16.239.166#104.18.33.113",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -197,7 +197,7 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido Rotate 01",
+      "Name": "Tim Saldo Valido 01",
       "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]X-Forward-Host: kurtzssh.shop[crlf] wss://[crlf]Connection: upgrade[crlf]upgrade: websocket[realData][crlf][crlf]",
       "SNI": "",
@@ -207,63 +207,63 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Valida e Expirado 01",
+      "Name": "Tim Saldo Valido 02",
       "FLAG": "tim",
       "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "www.timex.com#static.addtoany.com#www.teamworkonline.com#www.ufcstore.com#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyIP": "141.193.213.10#141.193.213.11",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido Rotate 02",
+      "Name": "Tim Saldo Valido 03",
       "FLAG": "tim",
       "Payload": "ACL /cdn-cgi/trace HTTP/1.1[crlf]host: tim.adfast.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.1[crlf]host:  kurtzssh.shop[crlf]Expect: 100-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.241.93#104.18.28.182#104.19.239.25#172.64.154.143#104.18.99.70",
+      "ProxyIP": "141.193.213.10#141.193.213.11",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Valido DDD91 01",
+      "Name": "Tim Saldo Valido 04",
       "FLAG": "tim",
       "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.240.93",
+      "ProxyIP": "141.193.213.10#141.193.213.11",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Valido DDD91 02",
+      "Name": "Tim Saldo Valido 05",
       "FLAG": "tim",
       "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.64.154.143",
+      "ProxyIP": "141.193.213.10",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Valida 01",
+      "Name": "Tim Saldo Valido 07",
       "FLAG": "tim",
       "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: agillite.emartim.com.br][crlf][crlf][crlf][split][crlf][crlf]MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Conection: p16.muscdn.com[crlf]Expect: 100-continue[crlf]X-Online-Host: www.au.download.windowsupdate.com[crlf]X-Forward-Host: p16.muscdn.com[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.241.93#209.14.70.176#104.18.28.182#104.19.239.25#104.18.33.113#172.64.154.143#104.18.99.70#104.16.53.111#172.67.188.168#104.17.64.225#172.64.154.143#104.16.53.111#186.233.114.253",
-      "ProxyPort": "80",
+      "ProxyIP": "141.193.213.11",
+      "ProxyPort": "8080",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Valida 02",
+      "Name": "Tim Saldo Valido 08",
       "FLAG": "tim",
       "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: browser-update.org,unpkg.com,www.google.com[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]PCVPN / HTTP/1.1[lf]Host: www.google.com[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.240.93#104.19.241.93",
-      "ProxyPort": "80",
+      "ProxyIP": "141.193.213.10",
+      "ProxyPort": "8080",
       "Info": "Proxy"
       },      
       {
