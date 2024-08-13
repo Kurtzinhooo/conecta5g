@@ -1,5 +1,5 @@
 {
-      "Version": "5.78",
+      "Version": "5.80",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -133,7 +133,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.41#104.18.6.41#172.64.150.8#vivomusica.vivo.com.br",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
@@ -143,7 +143,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "assine.vivo.com.br",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
@@ -153,7 +153,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vivomusica.vivo.com.br",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
@@ -222,7 +222,7 @@
       "Payload": "ACL /cdn-cgi/trace HTTP/1.1[crlf]host: tim.adfast.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.1[crlf]host:  kurtzssh.shop[crlf]Expect: 100-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.10#141.193.213.11",
+      "ProxyIP": "141.193.213.11#141.193.213.10",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
@@ -237,33 +237,33 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 05",
+      "Name": "Tim Saldo Expirado 01",
       "FLAG": "tim",
-      "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net [crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.10",
+      "ProxyIP": "209.14.70.37",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 06",
+      "Name": "Tim Saldo Expirado 02",
       "FLAG": "tim",
-      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: agillite.emartim.com.br][crlf][crlf][crlf][split][crlf][crlf]MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Conection: p16.muscdn.com[crlf]Expect: 100-continue[crlf]X-Online-Host: www.au.download.windowsupdate.com[crlf]X-Forward-Host: p16.muscdn.com[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PROPPATCH http://mercadolivre.com.br HTTP/2[crlf]Host: http://mercadolivre.com.br[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.11",
-      "ProxyPort": "8080",
+      "ProxyIP": "209.14.70.37",
+      "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 07",
+      "Name": "Tim Saldo Expirado 03",
       "FLAG": "tim",
-      "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: browser-update.org,unpkg.com,www.google.com[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]PCVPN / HTTP/1.1[lf]Host: www.google.com[lf]Upgrade: websocket[lf][lf]",
+      "Payload": "ACL HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: [app_host][crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.10",
-      "ProxyPort": "8080",
+      "ProxyIP": "209.14.70.37",
+      "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
