@@ -1,5 +1,5 @@
 {
-      "Version": "5.77",
+      "Version": "5.78",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -247,7 +247,7 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 07",
+      "Name": "Tim Saldo Valido 06",
       "FLAG": "tim",
       "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: agillite.emartim.com.br][crlf][crlf][crlf][split][crlf][crlf]MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Conection: p16.muscdn.com[crlf]Expect: 100-continue[crlf]X-Online-Host: www.au.download.windowsupdate.com[crlf]X-Forward-Host: p16.muscdn.com[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -257,7 +257,7 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 08",
+      "Name": "Tim Saldo Valido 07",
       "FLAG": "tim",
       "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]X-Online-Host: browser-update.org,unpkg.com,www.google.com[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]PCVPN / HTTP/1.1[lf]Host: www.google.com[lf]Upgrade: websocket[lf][lf]",
       "SNI": "",
