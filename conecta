@@ -1,5 +1,5 @@
 {
-      "Version": "5.81",
+      "Version": "5.82",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -79,7 +79,7 @@
       {
       "Name": "Vivo CDN 01",
       "FLAG": "vivo",
-      "Payload": "PUT /app795 HTTP/1.1\nHost: [rotate=tl4.computingbrtl.xyz;tl5.computingbrtl.xyz;tl6.computingbrtl.xyz;tl7.computingbrtl.xyz;tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz;tl15.computingbrtl.xyz;tl16.computingbrtl.xyz;tl17.computingbrtl.xyz;tl18.computingbrtl.xyz;tl19.computingbrtl.xyz;tl20.computingbrtl.xyz]\nConnection: Upgrade\nUpgrade: websocket\\n\\n#PATCH /app795 HTTP/1.1[lf]Host: [host][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]#HEAD /app795  HTTP/1.1[crlf]Host: [host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+      "Payload": "PUT /app795 HTTP/1.1\nHost: [tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz]\nConnection: Upgrade\nUpgrade: websocket\\n\\n#PATCH /app795 HTTP/1.1[lf]Host: [host][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][split][lf]#HEAD /app795  HTTP/1.1[crlf]Host: [host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "frontend-tim-recarga-client.m4u.com.br#52.85.213.77#52.85.213.112#52.85.213.121#52.85.213.74#52.67.198.135#cc-brand.plat-m4u.io#108.139.113.45#dex.descomplica.com.br#13.33.123.107#18.67.129.91#18.67.129.103#18.67.129.119#18.67.129.10#oi-recarga.oston.io#www.timlive.tim.com.br#timlive.tim.com.br#13.227.126.39#13.227.126.40#13.227.126.91#99.84.31.114#99.84.31.97#99.84.31.8#99.84.31.80#io.descomplica.com.br#3.163.10.29#3.163.10.81#3.163.10.19#3.163.10.100#conversions.appsflyer.com#3.163.10.112#3.163.10.104#3.163.10.54#3.163.10.121#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#launches.appsflyer.com#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58#18.67.129.17#c6bank.onelink.me#99.84.31.110#99.84.31.38#99.84.31.63#99.84.31.9#13.248.245.213#54.231.225.121#65.9.95.105#18.66.147.27#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#108.158.172.101#108.158.172.59#108.158.172.82#108.158.172.10#99.84.37.44#13.226.22.87#13.227.126.39#13.227.126.40#13.227.126.91#13.227.126.39#13.227.126.40#13.227.126.91#13.227.97.69#13.227.97.28#13.227.97.116#13.227.97.49#13.33.123.128#13.33.123.29#13.33.123.107#13.33.123.19#18.67.145.96#18.64.207.89#13.227.126.58#13.227.126.58",
@@ -239,7 +239,7 @@
       {
       "Name": "Tim Front 01",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app795 HTTP/1.1[crlf]Host: [rotate=tl4.computingbrtl.xyz;tl5.computingbrtl.xyz;tl6.computingbrtl.xyz;tl7.computingbrtl.xyz;tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz;tl15.computingbrtl.xyz;tl16.computingbrtl.xyz;tl17.computingbrtl.xyz;tl18.computingbrtl.xyz;tl19.computingbrtl.xyz;tl20.computingbrtl.xyz][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app795 HTTP/1.1[crlf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "timpospromo.com.br#d3uyk7qgi7fgpo.cloudfront.net#d3awytnmmfk53d.cloudfront.net#dnnsjdj5swfc3.cloudfront.net#frontend-tim-recarga-client.m4u.com.br#blog.onecodex.com",
@@ -249,7 +249,7 @@
       {
       "Name": "Tim Front 02",
       "FLAG": "tim",
-      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=timpospromo.com.br;tim.com.br][lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl4.computingbrtl.xyz;tl5.computingbrtl.xyz;tl6.computingbrtl.xyz;tl7.computingbrtl.xyz;tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz;tl15.computingbrtl.xyz;tl16.computingbrtl.xyz;tl17.computingbrtl.xyz;tl18.computingbrtl.xyz;tl19.computingbrtl.xyz;tl20.computingbrtl.xyz][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=timpospromo.com.br;tim.com.br][lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "sagemaker.datasci.segment.com#messaging-cdn-app.segment.com#stage.segment.com#ajs.cd.segment.com#www.stage.segment.com#cdn-settings.segment.com#cdn-slow.segment.com#www.preview.segment.com#community.segment.com",
@@ -259,7 +259,7 @@
       {
       "Name": "Tim Front 03",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[crlf]Host: [rotate=tl4.computingbrtl.xyz;tl5.computingbrtl.xyz;tl6.computingbrtl.xyz;tl7.computingbrtl.xyz;tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz;tl15.computingbrtl.xyz;tl16.computingbrtl.xyz;tl17.computingbrtl.xyz;tl18.computingbrtl.xyz;tl19.computingbrtl.xyz;tl20.computingbrtl.xyz][crlf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[crlf]Host: [tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "cdn-segment.dzcdn.net",
