@@ -1,5 +1,5 @@
 {
-      "Version": "5.82",
+      "Version": "5.83",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -259,7 +259,7 @@
       {
       "Name": "Tim Front 03",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[crlf]Host: [tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz][crlf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz][lf]Backend: app00[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "cdn-segment.dzcdn.net",
