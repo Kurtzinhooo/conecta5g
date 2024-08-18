@@ -1,5 +1,5 @@
 {
-      "Version": "5.88",
+      "Version": "5.89",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -239,7 +239,7 @@
       {
       "Name": "Tim Front 01",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app795 HTTP/1.1[crlf]Host: [rotate=tl4.computingbrtl.xyz#tl5.computingbrtl.xyz#tl6.computingbrtl.xyz#tl7.computingbrtl.xyz#tl8.computingbrtl.xyz#tl9.computingbrtl.xyz#tl10.computingbrtl.xyz#tl11.computingbrtl.xyz#tl12.computingbrtl.xyz#tl13.computingbrtl.xyz#tl14.computingbrtl.xyz#tl15.computingbrtl.xyz#tl16.computingbrtl.xyz#tl17.computingbrtl.xyz#tl18.computingbrtl.xyz#tl19.computingbrtl.xyz#tl20.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app795 HTTP/1.1[crlf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "timpospromo.com.br#d3uyk7qgi7fgpo.cloudfront.net#d3awytnmmfk53d.cloudfront.net#dnnsjdj5swfc3.cloudfront.net#frontend-tim-recarga-client.m4u.com.br#blog.onecodex.com",
@@ -249,7 +249,7 @@
       {
       "Name": "Tim Front 02",
       "FLAG": "tim",
-      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=timpospromo.com.br;tim.com.br][lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl4.computingbrtl.xyz#tl5.computingbrtl.xyz#tl6.computingbrtl.xyz#tl7.computingbrtl.xyz#tl8.computingbrtl.xyz#tl9.computingbrtl.xyz#tl10.computingbrtl.xyz#tl11.computingbrtl.xyz#tl12.computingbrtl.xyz#tl13.computingbrtl.xyz#tl14.computingbrtl.xyz#tl15.computingbrtl.xyz#tl16.computingbrtl.xyz#tl17.computingbrtl.xyz#tl18.computingbrtl.xyz#tl19.computingbrtl.xyz#tl20.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=timpospromo.com.br;tim.com.br][lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "university.segment.com#status.segment.com#cdn.edgefn.segment.com#www.dev.segment.com#commercials-db.dataeng.segment.com#static.segment.com#dev.segment.com#email.e.segment.com#g.segment.com",
@@ -259,7 +259,7 @@
       {
       "Name": "Tim Front 03",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[lf]Host: [rotate=tl4.computingbrtl.xyz#tl5.computingbrtl.xyz#tl6.computingbrtl.xyz#tl7.computingbrtl.xyz#tl8.computingbrtl.xyz#tl9.computingbrtl.xyz#tl10.computingbrtl.xyz#tl11.computingbrtl.xyz#tl12.computingbrtl.xyz#tl13.computingbrtl.xyz#tl14.computingbrtl.xyz#tl15.computingbrtl.xyz#tl16.computingbrtl.xyz#tl17.computingbrtl.xyz#tl18.computingbrtl.xyz#tl19.computingbrtl.xyz#tl20.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Backend: app00[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Backend: app795[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "cdn-segment.dzcdn.net",
