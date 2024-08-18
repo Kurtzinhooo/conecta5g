@@ -1,5 +1,5 @@
 {
-      "Version": "5.89",
+      "Version": "5.90",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -249,10 +249,10 @@
       {
       "Name": "Tim Front 02",
       "FLAG": "tim",
-      "Payload": "HEAD / HTTP/1.1[crlf]Host: [rotate=timpospromo.com.br;tim.com.br][lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "HEAD / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net][lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "university.segment.com#status.segment.com#cdn.edgefn.segment.com#www.dev.segment.com#commercials-db.dataeng.segment.com#static.segment.com#dev.segment.com#email.e.segment.com#g.segment.com",
+      "ProxyIP": "premier.sonos.dzcdn.net",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
