@@ -1,5 +1,5 @@
 {
-      "Version": "5.91",
+      "Version": "5.92",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -159,10 +159,10 @@
       {
       "Name": "Vivo Controle 01",
       "FLAG": "vivo",
-      "Payload": "[split]ACL / HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: kurtzssh.shop[crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.41#104.18.7.41#104.17.70.206",
+      "ProxyIP": "141.193.213.10#141.193.213.11#104.18.18.210#104.18.19.210#104.18.22.136#104.18.23.136#104.17.70.206#104.17.71.206#104.17.72.206#104.17.73.206#104.17.74.206#104.26.4.32#104.26.5.32",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
