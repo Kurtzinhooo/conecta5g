@@ -1,5 +1,5 @@
 {
-      "Version": "5.94",
+      "Version": "5.95",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -239,7 +239,7 @@
       {
       "Name": "Tim Front 01",
       "FLAG": "tim",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app491 HTTP/1.1[crlf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app795 HTTP/1.1[crlf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "timpospromo.com.br#d3uyk7qgi7fgpo.cloudfront.net#d3awytnmmfk53d.cloudfront.net#dnnsjdj5swfc3.cloudfront.net#frontend-tim-recarga-client.m4u.com.br#blog.onecodex.com",
@@ -249,7 +249,7 @@
       {
       "Name": "Tim Front 02",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[lf][lf][split][lf]PATCH /app491 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "premier.sonos.dzcdn.net",
@@ -259,7 +259,7 @@
       {
       "Name": "Tim Front 03",
       "FLAG": "tim",
-      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app491 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Backend: app491[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[lf]Host: [rotate=tl8.computingbrtl.xyz;tl9.computingbrtl.xyz;tl10.computingbrtl.xyz;tl11.computingbrtl.xyz;tl12.computingbrtl.xyz;tl13.computingbrtl.xyz;tl14.computingbrtl.xyz#d2dcvi9rn3609u.cloudfront.net][lf]Backend: app795[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "cdn-segment.dzcdn.net",
