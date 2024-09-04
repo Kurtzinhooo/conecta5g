@@ -195,7 +195,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "compre.vivo.com.br#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyIP": "104.17.70.206#compre.vivo.com.br#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
