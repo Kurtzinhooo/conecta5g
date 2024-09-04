@@ -1,5 +1,5 @@
 {
-      "Version": "5.108",
+      "Version": "5.109",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -232,10 +232,10 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       {
       "Name": "Tim Saldo Valido 02",
       "FLAG": "tim",
-      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: [random=breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Expect: 100-continue[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.10#141.193.213.11",
+      "ProxyIP": "104.16.239.166#141.193.213.10#141.193.213.11",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
@@ -252,7 +252,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       {
       "Name": "Tim Saldo Valido 04",
       "FLAG": "tim",
-      "Payload": "[split]ACL / HTTP/1.9[crlf]host: www.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "Payload": "[split]ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.64.154.143#141.193.213.10#141.193.213.11",
