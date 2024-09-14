@@ -1,5 +1,5 @@
 {
-      "Version": "5.113",
+      "Version": "5.114",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -200,12 +200,12 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Expirado 01",
+      "Name": "Tim Expirado e Valida 01",
       "FLAG": "tim",
-      "Payload": "ACL http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
+      "Payload": "ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.37",
+      "ProxyIP": "104.18.28.182#104.19.240.25#104.18.29.182#104.19.239.25#104.19.242.25",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -292,17 +292,17 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       {
       "Name": "Tim Saldo Expirado 01",
       "FLAG": "tim",
-      "Payload": "PROPPATCH http://mercadolivre.com.br HTTP/2[crlf]Host: http://mercadolivre.com.br[crlf]",
+      "Payload": "ACL /wss.html HTTP/1.1[lf]Host: kurtzssh.shop[lf]Expect: 100-tmyvpn[lf]Conexão: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "209.14.70.37",
+      "ProxyIP": "104.17.64.225",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
       "Name": "Tim Saldo Expirado 02",
       "FLAG": "tim",
-      "Payload": "ACL HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: [app_host][crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]",
+      "Payload": "MERGE p.adsymptotic.com HTTP/2.0[crlf]Host: p.adsymptotic.com [crlf]Conexão: atualização, Keep-Alive-Status 101[crlf]Atualização: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)tlcomputingbr[crlf]Referer: http://www.google.com [crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
