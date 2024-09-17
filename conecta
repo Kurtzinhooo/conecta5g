@@ -1,5 +1,5 @@
 {
-      "Version": "5.115",
+      "Version": "5.116",
       "ReleaseNotes": "Nova Atualização",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -99,7 +99,7 @@
       {
       "Name": "Vivo Pre Turbo 01",
       "FLAG": "vivo",
-      "Payload": "ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=api.digital.cname.vivo.com.br;api.digital.vivo.com.br;autenticaint.cname.vivo.com.br;autenticaint.vivo.com.br;auth.vivo.com.br;celular.vivo.com.br;gedoc.cname.vivo.com.br;lojaempresas.vivo.com.br;recarga.vivo.com.br][lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "[delay_split][lf]ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.99.1#104.18.99.2#104.18.99.3#104.18.99.4#104.18.99.5#104.18.99.6#104.18.99.7#104.18.99.8#104.18.99.9#104.18.99.10#104.18.99.11#104.18.99.12#104.18.99.13#104.18.99.14#104.18.99.15#104.18.99.16#104.18.99.17#104.18.99.18#104.18.99.19#104.18.99.20#104.18.99.21#104.18.99.22#104.18.99.23#104.18.99.24",
@@ -109,7 +109,7 @@
       {
       "Name": "Vivo Pre Turbo 02",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
@@ -119,7 +119,7 @@
       {
       "Name": "Vivo Pre Turbo 03",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][split][crlf]",
+      "Payload": "ACL /wss.html HTTP/1.1[lf]Host: kurtzssh.shop[lf]Expect: 100-tmyvpn[lf]Conexão: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "proxy.kurtzssh.shop#vivomusica.vivo.com.br#104.18.34.21#104.18.99.70#141.193.213.11#104.18.33.113#104.17.64.225#104.19.240.93#104.19.241.93",
@@ -129,7 +129,7 @@
       {
       "Name": "Vivo Easy 01",
       "FLAG": "vivo",
-      "Payload": "GET /home.html HTTP/1.1[crlf]Host: [rotate=proxy.kurtzssh.shop;kurtzssh.shop][crlf]Origin: https://www.google.com, http://www.google.com[crlf]ser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
+      "Payload": "GET /home.html HTTP/1.1[crlf]Host: [rotate=kurtzssh.shop;kurtzssh.shop][crlf]Origin: https://www.google.com, http://www.google.com[crlf]ser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive, Upgrade[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.41#104.18.6.41#172.64.150.8#vivomusica.vivo.com.br",
@@ -260,7 +260,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Front 01",
+      "Name": "Tim Front 01 Off",
       "FLAG": "tim",
       "Payload": "PATCH / HTTP/1.1[crlf]Host: tim.com.br[lf] [lf]PUT /app795 HTTP/1.1[crlf]Host: [rotate=cdn12.cdntlcomputingbr.shop;cdn9.cdntlcomputingbr.shop;cdn8.cdntlcomputingbr.shop;cdn9.cdntlcomputingbr.shop;cdn10.cdntlcomputingbr.shop;cdn11.cdntlcomputingbr.shop;cdn12.cdntlcomputingbr.shop;cdn13.cdntlcomputingbr.shop;cdn14.cdntlcomputingbr.shop;cdn15.cdntlcomputingbr.shop;cdn16.cdntlcomputingbr.shop;cdn17.cdntlcomputingbr.shop;cdn18.cdntlcomputingbr.shop;cdn19.cdntlcomputingbr.shop;cdn20.cdntlcomputingbr.shop][crlf]Connection: Upgrade[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -270,7 +270,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Front 02",
+      "Name": "Tim Front 02 off",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[lf][lf][split][lf]PATCH /app795 HTTP/1.1[lf]Host: [rotate=cdn12.cdntlcomputingbr.shop;cdn9.cdntlcomputingbr.shop;cdn8.cdntlcomputingbr.shop;cdn9.cdntlcomputingbr.shop;cdn10.cdntlcomputingbr.shop;cdn11.cdntlcomputingbr.shop;cdn12.cdntlcomputingbr.shop;cdn13.cdntlcomputingbr.shop;cdn14.cdntlcomputingbr.shop;cdn15.cdntlcomputingbr.shop;cdn16.cdntlcomputingbr.shop;cdn17.cdntlcomputingbr.shop;cdn18.cdntlcomputingbr.shop;cdn19.cdntlcomputingbr.shop;cdn20.cdntlcomputingbr.shop][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
@@ -280,7 +280,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Front 03",
+      "Name": "Tim Front 03 off",
       "FLAG": "tim",
       "Payload": "CONNECT / HTTP/1.1[crlf]Host: cdn-segment.dzcdn.net[crlf] [crlf]GET /app795 HTTP/1.1[lf]Host: [rotate=cdn12.cdntlcomputingbr.shop;cdn9.cdntlcomputingbr.shop;cdn8.cdntlcomputingbr.shop;cdn9.cdntlcomputingbr.shop;cdn10.cdntlcomputingbr.shop;cdn11.cdntlcomputingbr.shop;cdn12.cdntlcomputingbr.shop;cdn13.cdntlcomputingbr.shop;cdn14.cdntlcomputingbr.shop;cdn15.cdntlcomputingbr.shop;cdn16.cdntlcomputingbr.shop;cdn17.cdntlcomputingbr.shop;cdn18.cdntlcomputingbr.shop;cdn19.cdntlcomputingbr.shop;cdn20.cdntlcomputingbr.shop][lf]Backend: app795[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
@@ -302,7 +302,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       {
       "Name": "Tim Saldo Expirado 02",
       "FLAG": "tim",
-      "Payload": "MERGE p.adsymptotic.com HTTP/2.0[crlf]Host: p.adsymptotic.com [crlf]Conexão: atualização, Keep-Alive-Status 101[crlf]Atualização: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)tlcomputingbr[crlf]Referer: http://www.google.com [crlf]",
+      "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
