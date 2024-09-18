@@ -1,5 +1,5 @@
 {
-      "Version": "5.117",
+      "Version": "5.123",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 117\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -180,10 +180,7 @@
       {
       "Name": "Vivo Controle 03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1
-Host: kurtzssh.shop
-Connection: Upgrade
-Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf][split]ACL- // HTTP/1.9[crlf]Host: kurtzssh.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: kurtzssh.shop[crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "101.us#104.19.240.25#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
