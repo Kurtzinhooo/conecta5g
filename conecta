@@ -1,6 +1,6 @@
 {
-      "Version": "5.127",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 117\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.128",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 128\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -233,7 +233,7 @@
       "Payload": "[split]ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.64.154.143#141.193.213.10#141.193.213.11",
+      "ProxyIP": "104.16.239.166#172.64.154.143#141.193.213.10#141.193.213.11",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
