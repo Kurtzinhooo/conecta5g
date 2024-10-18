@@ -1,6 +1,6 @@
 {
-      "Version": "5.130",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 129\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.131",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 131\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -40,7 +40,7 @@
       {
       "Name": "Vivo SSH 02",
       "FLAG": "vivo",
-      "Payload": "[split]PATCH / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Host: 5563745.group45.sites.hubspot.net;5840292.group42.sites.hubspot.net;714341g41.secure0121.hubspot.net[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]Service: Multi-spectro[crlf][crlf]",
+      "Payload": "GET http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -50,7 +50,7 @@
       {
       "Name": "Vivo SSH 03",
       "FLAG": "vivo",
-      "Payload": "[delay_split]GET / HTTP1.1 [rotate= portalrecarga.vivo.com.br;www.apple.com;roblox.com;api-oyon.viu.com;twitch.tv;assine.vivo.com.br;wazer.com;soundwaze.com] / [protocol][crlf][raw][crlf]",
+      "Payload": "ACL http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -60,7 +60,7 @@
       {
       "Name": "Vivo SSH 04",
       "FLAG": "vivo",
-      "Payload": "[split][lf]TRACE / HTTP/1.1[crlf]Host: vivo.tl[crlf]Upgrade: WebSocketExtensions[crlf]Connection: Upgrade-Insecure-Requests[crlf][crlf]",
+      "Payload": "PATCH http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -70,7 +70,7 @@
       {
       "Name": "Vivo SSH 05",
       "FLAG": "vivo",
-      "Payload": "MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]",
+      "Payload": "PUT http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -80,7 +80,7 @@
       {
       "Name": "Vivo SSH 06",
       "FLAG": "vivo",
-      "Payload": "PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net [crlf]",
+      "Payload": "CONNECT http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -98,32 +98,32 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Vivo Pre Turbo 01",
+      "Name": "Vivo Sem Login Rede 01",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.99.1#104.18.99.2#104.18.99.3#104.18.99.4#104.18.99.5#104.18.99.6#104.18.99.7#104.18.99.8#104.18.99.9#104.18.99.10#104.18.99.11#104.18.99.12#104.18.99.13#104.18.99.14#104.18.99.15#104.18.99.16#104.18.99.17#104.18.99.18#104.18.99.19#104.18.99.20#104.18.99.21#104.18.99.22#104.18.99.23#104.18.99.24",
+      "ProxyIP": "104.26.12.205",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
-      "Name": "Vivo Pre Turbo 02",
+      "Name": "Vivo Sem Login Rede 02",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "[rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyIP": "104.26.12.205",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
-      "Name": "Vivo Pre Turbo 03",
+      "Name": "Vivo Controle 01",
       "FLAG": "vivo",
-      "Payload": "ACL /wss.html HTTP/1.1[lf]Host: kurtzssh.shop[lf]Expect: 100-tmyvpn[lf]Conexão: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "proxy.kurtzssh.shop#vivomusica.vivo.com.br#104.18.34.21#104.18.99.70#141.193.213.11#104.18.33.113#104.17.64.225#104.19.240.93#104.19.241.93",
+      "ProxyIP": "104.26.12.205",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -160,7 +160,7 @@
       {
       "Name": "Vivo Controle 01",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: proxy.kurtzssh.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtzssh.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.239.166#104.17.64.225#104.18.33.113#104.26.5.32#104.16.53.111#104.16.51.111#104.17.70.206#104.24.24.34#104.24.25.34",
@@ -190,10 +190,33 @@
       {
       "Name": "Vivo Controle 04",
       "FLAG": "vivo",
-      "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: kurtzssh.shop[crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.10#proxy.kurtzssh.shop",
+      "ProxyIP": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Controle 05",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1
+Host: kurtzcdn.online
+Connection: Upgrade
+Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf][split]ACL- // HTTP/1.9[crlf]Host: kurtzcdn.online[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "101.us",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Controle 06",
+      "FLAG": "vivo",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzcdn.online[lf]Upgrade: Websocket[lf][split][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.17.64.225",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
