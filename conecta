@@ -1,5 +1,5 @@
 {
-      "Version": "5.133",
+      "Version": "5.134",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 132\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -40,7 +40,7 @@
       {
       "Name": "Vivo SSH 02",
       "FLAG": "vivo",
-      "Payload": "GET http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
+      "Payload": "PATCH http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -50,7 +50,7 @@
       {
       "Name": "Vivo SSH 03",
       "FLAG": "vivo",
-      "Payload": "ACL http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
+      "Payload": "MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -60,7 +60,7 @@
       {
       "Name": "Vivo SSH 04",
       "FLAG": "vivo",
-      "Payload": "PATCH http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
+      "Payload": "GET HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: kurtzssh.shop[crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -70,7 +70,7 @@
       {
       "Name": "Vivo SSH 05",
       "FLAG": "vivo",
-      "Payload": "PUT http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
+      "Payload": "PATCH http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
@@ -80,7 +80,7 @@
       {
       "Name": "Vivo SSH 06",
       "FLAG": "vivo",
-      "Payload": "CONNECT http://proxy.kurtzssh.shop/ HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]X-Forward-Host: proxy.kurtzssh.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf][crlf]CONNECT proxy.kurtzssh.shop@[host_port] [protocol][crlf][crlf]",
+      "Payload": "PROPPATCH http://mercadolivre.com.br HTTP/2[crlf]Host: http://mercadolivre.com.br[crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
