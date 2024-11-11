@@ -1,5 +1,5 @@
 {
-      "Version": "5.135",
+      "Version": "5.136",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 132\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -223,7 +223,7 @@ Upgrade: websocket\n\n#ACL / HTTP/1.9[crlf]Host: c6bank.com.br[crlf]Expect: 100-
       {
       "Name": "Tim Saldo Valido 01",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: [rotate=revive.timrecompensas.com.br;proxy.kurtzssh.shop;apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host:[rotate=revive.timrecompensas.com.br;proxy.kurtzssh.shop;apf.maisvantagenstim.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "ADA.NS.CLOUDFLARE.COM#OSMAR.NS.CLOUDFLARE.COM",
