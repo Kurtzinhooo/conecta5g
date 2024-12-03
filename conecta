@@ -1,6 +1,6 @@
 {
-      "Version": "5.144",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 144\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.145",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 145\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -45,7 +45,7 @@
       "TlsIP": "vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Ssl"
+      "Info": "Tlsws"
       },
       {
       "Name": "Vivo Turbo 03",
@@ -55,7 +55,7 @@
       "TlsIP": "162.159.135.63",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Ssl"
+      "Info": "Tlsws"
       },
       {
       "Name": "Vivo Turbo 04",
@@ -220,7 +220,7 @@
       {
       "Name": "TIM DATAMI 01",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
@@ -300,7 +300,7 @@
       {
       "Name": "TIM DATAMI 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vpn.cloudmi.datami.com",
@@ -310,7 +310,7 @@
       {
       "Name": "TIM DATAMI 03",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vpn.cloudmi.datami.com",
