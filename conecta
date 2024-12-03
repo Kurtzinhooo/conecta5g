@@ -1,6 +1,6 @@
 {
-      "Version": "5.141",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 141\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.142",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 142\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -28,7 +28,37 @@
       ],
       "Networks": [
       {
-      "Name": "Vivo SSH 01",
+      "Name": "Vivo Turbo 01",
+      "FLAG": "vivo",
+      "Payload": "PUT / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "gedoc.vivo.com.br#auth.vivo.com.br#app.vivo.com.br#vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Vivo Turbo 02",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Ssl"
+      },
+      {
+      "Name": "Vivo Turbo 03",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.135.63",
+      "ProxyPort": "80",
+      "Info": "Ssl"
+      },
+      {
+      "Name": "Vivo Turbo 04",
       "FLAG": "vivo",
       "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -38,7 +68,7 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Vivo SSH 02",
+      "Name": "Vivo Turbo 05",
       "FLAG": "vivo",
       "Payload": "PATCH http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "",
@@ -48,37 +78,7 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Vivo SSH 03",
-      "FLAG": "vivo",
-      "Payload": "MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "209.14.70.37",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "Vivo SSH 04",
-      "FLAG": "vivo",
-      "Payload": "GET HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: kurtzssh.shop[crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "209.14.70.37",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "Vivo SSH 05",
-      "FLAG": "vivo",
-      "Payload": "PATCH http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "209.14.70.37",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "Vivo SSH 06",
+      "Name": "Vivo Turbo 06",
       "FLAG": "vivo",
       "Payload": "PROPPATCH http://mercadolivre.com.br HTTP/2[crlf]Host: http://mercadolivre.com.br[crlf]",
       "SNI": "",
@@ -88,7 +88,7 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Vivo SSH 07",
+      "Name": "Vivo Turbo 07",
       "FLAG": "vivo",
       "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [host_port][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
@@ -218,6 +218,16 @@
       "Info": "Proxy"
       },
       {
+      "Name": "TIM DATAMI 01",
+      "FLAG": "tim",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]#GET /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
       "Name": "Tim Saldo Valido 01",
       "FLAG": "tim",
       "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: Websocket[lf][lf]",
@@ -288,22 +298,22 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 08",
+      "Name": "TIM DATAMI 02",
       "FLAG": "tim",
-      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[crlf]Host: [random=breadbox.app;c6bank.zendesk.com;cdn.navdmp.com;mobile.hom.c6bank.app][crlf][crlf][split][crlf][crlf]ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Expect: 100-continue[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.239.166#141.193.213.10#141.193.213.11",
+      "ProxyIP": "vpn.cloudmi.datami.com",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 09",
+      "Name": "TIM DATAMI 03",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[crlf]host: tim.adfast.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.1[crlf]host:  kurtzssh.shop[crlf]Expect: 100-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "141.193.213.11#141.193.213.10",
+      "ProxyIP": "vpn.cloudmi.datami.com",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
