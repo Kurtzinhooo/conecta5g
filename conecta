@@ -1,6 +1,6 @@
 {
-      "Version": "5.147",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 147\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.148",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 148\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -30,7 +30,7 @@
       {
       "Name": "Vivo Turbo 01",
       "FLAG": "vivo",
-      "Payload": "PUT / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "loja.vivo.com.br",
@@ -40,17 +40,17 @@
       {
       "Name": "Vivo Turbo 02",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
+      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br#loja.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Turbo 03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
