@@ -1,6 +1,6 @@
 {
-      "Version": "5.146",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 146\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.147",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 147\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -18,7 +18,7 @@
       "Name": "KurtzSSH Premium",
       "TYPE": "premium",
       "FLAG": "br.png",
-          "ServerIP": "kurtzssh.shop",
+          "ServerIP": "kurtzinho.shop",
       "CheckUser": "",
       "ServerPort": "80",
       "SSLPort": "443",
@@ -33,7 +33,7 @@
       "Payload": "PUT / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "gedoc.vivo.com.br#auth.vivo.com.br#app.vivo.com.br#vivo.com.br",
+      "ProxyIP": "loja.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -43,7 +43,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "vivo.com.br",
+      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -53,7 +53,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "162.159.135.63",
+      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -100,7 +100,7 @@
       {
       "Name": "Vivo Sem Login Rede 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.26.12.205",
@@ -110,7 +110,7 @@
       {
       "Name": "Vivo Sem Login Rede 02",
       "FLAG": "vivo",
-      "Payload": "[rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "[rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.26.12.205",
@@ -120,7 +120,7 @@
       {
       "Name": "Vivo Pre Turbo 01",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "[delay_split][lf]ACL wss://kurtzinho.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.99.1#104.18.99.2#104.18.99.3#104.18.99.4#104.18.99.5#104.18.99.6#104.18.99.7#104.18.99.8#104.18.99.9#104.18.99.10#104.18.99.11#104.18.99.12#104.18.99.13#104.18.99.14#104.18.99.15#104.18.99.16#104.18.99.17#104.18.99.18#104.18.99.19#104.18.99.20#104.18.99.21#104.18.99.22#104.18.99.23#104.18.99.24",
@@ -130,7 +130,7 @@
       {
       "Name": "Vivo Easy 01",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtzssh.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtzinho.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.41#104.18.6.41#172.64.150.8#vivomusica.vivo.com.br",
@@ -140,7 +140,7 @@
       {
       "Name": "Vivo Easy 02",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtzssh.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtzinho.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.64.150.8#104.18.6.80#104.18.37.248#104.18.7.80#104.18.43.147#172.64.144.109#104.18.7.41#104.18.23.26#104.17.72.206#104.18.7.80#162.159.138.6#162.159.128.7#104.17.70.206#104.17.71.206#104.17.73.206#104.17.74.206#104.17.239.25#104.16.53.111#104.16.51.111#104.18.6.41#104.18.38.64#104.24.24.34#104.24.25.34",
@@ -150,7 +150,7 @@
       {
       "Name": "Vivo Easy 03",
       "FLAG": "vivo",
-      "Payload": "OPTIONS- // HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "OPTIONS- // HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vivomusica.vivo.com.br#104.18.7.41#104.18.6.41#172.64.150.8#vivomusica.vivo.com.br",
@@ -160,7 +160,7 @@
       {
       "Name": "Vivo Controle 01",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "OSMAR.NS.CLOUDFLARE.COM#104.16.239.166#104.17.64.225#104.18.33.113#104.26.5.32#104.16.53.111#104.16.51.111#104.17.70.206#104.24.24.34#104.24.25.34",
@@ -170,7 +170,7 @@
       {
       "Name": "Vivo Controle 02",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "ADA.NS.CLOUDFLARE.COM#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
@@ -180,7 +180,7 @@
       {
       "Name": "Vivo Controle 03",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "101.us#104.19.240.25#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
@@ -190,7 +190,7 @@
       {
       "Name": "Vivo Controle 04",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
@@ -200,7 +200,7 @@
       {
       "Name": "Vivo Controle 05",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "PATCH / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "101.us",
@@ -210,7 +210,7 @@
       {
       "Name": "Vivo Controle 06",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzssh.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.64.225",
@@ -230,7 +230,7 @@
       {
       "Name": "Tim Saldo Valido 01",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.140.159#172.66.0.157#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
@@ -240,7 +240,7 @@
       {
       "Name": "Tim Saldo Valido 02",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[lf]Host: portal.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: portal.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "portal.timrecompensas.com.br#vs.timrecompensas.com.br",
@@ -250,7 +250,7 @@
       {
       "Name": "Tim Saldo Valido 03",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[lf]Host: vs.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: vs.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vs.timrecompensas.com.br",
@@ -260,7 +260,7 @@
       {
       "Name": "Tim Saldo Valido 04",
       "FLAG": "tim",
-      "Payload": "[split]ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzssh.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "Payload": "[split]ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzinho.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.239.166#172.64.154.143#141.193.213.10#141.193.213.11",
@@ -270,7 +270,7 @@
       {
       "Name": "Tim Saldo Valido 05",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "apf.maisvantagenstim.com.br#162.159.140.159#172.66.0.157",
@@ -280,7 +280,7 @@
       {
       "Name": "Tim Saldo Valido 06",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: proxy.kurtzssh.shop[lf]Upgrade: Websocket[lf][lf]",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.140.159#172.66.0.157vs.timrecompensas.com.br#portal.timrecompensas.com.br",
@@ -290,7 +290,7 @@
       {
       "Name": "Tim Saldo Valido 07",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: revive.timrecompensas.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: proxy.kurtzssh.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: revive.timrecompensas.com.br[crlf][crlf][split][crlf]ACL / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "ADA.NS.CLOUDFLARE.COM#OSMAR.NS.CLOUDFLARE.COM",
@@ -320,7 +320,7 @@
       {
       "Name": "Tim Saldo Expirado 01",
       "FLAG": "tim",
-      "Payload": "ACL wss://kurtzssh.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL wss://kurtzinho.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.28.182#104.19.240.25#104.18.29.182#104.19.239.25#104.19.242.25",
@@ -330,7 +330,7 @@
       {
       "Name": "Tim Saldo Expirado 02",
       "FLAG": "tim",
-      "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "172.64.154.143",
@@ -340,7 +340,7 @@
       {
       "Name": "Tim Saldo Expirado 03",
       "FLAG": "tim",
-      "Payload": "ACL /wss.html HTTP/1.1[lf]Host: kurtzssh.shop[lf]Expect: 100-tmyvpn[lf]Conexão: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "Payload": "ACL /wss.html HTTP/1.1[lf]Host: kurtzinho.shop[lf]Expect: 100-tmyvpn[lf]Conexão: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.64.225",
@@ -360,7 +360,7 @@
       {
       "Name": "Tim Saldo Expirado 05",
       "FLAG": "tim",
-      "Payload": "[split]PATCH / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: Websocket[crlf]Host: 5563745.group45.sites.hubspot.net;5840292.group42.sites.hubspot.net;714341g41.secure0121.hubspot.net[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]Service: Multi-spectro[crlf][crlf]",
+      "Payload": "[split]PATCH / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf]Host: 5563745.group45.sites.hubspot.net;5840292.group42.sites.hubspot.net;714341g41.secure0121.hubspot.net[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]Service: Multi-spectro[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "209.14.70.37",
