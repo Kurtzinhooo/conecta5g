@@ -1,6 +1,6 @@
 {
-      "Version": "5.149",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 149\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.150",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 150\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -33,7 +33,7 @@
       "Payload": "ACL / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "loja.vivo.com.br",
+      "ProxyIP": "loja.vivo.com.br#1.1.1.1#104.16.53.111",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -43,17 +43,17 @@
       "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br#loja.vivo.com.br",
+      "ProxyIP": "104.16.53.111#vpn.cloudmi.datami.com#vivo.com.br#loja.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Turbo 03",
       "FLAG": "vivo",
-      "Payload": "MOVE /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]#ACL / HTTP/1.1[lf]Host: kurtszvpn.ilovebirds.site[lf]Upgrade: Websocket[lf][split][lf]#PUT / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br#loja.vivo.com.br",
+      "ProxyIP": "104.16.239.166#104.17.64.225#104.18.33.113#104.26.5.32#172.67.74.152#theimfmethod.com#lexiruffell.com#store.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -100,7 +100,7 @@
       {
       "Name": "Vivo Sem Login Rede 01",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.26.12.205",
@@ -110,7 +110,7 @@
       {
       "Name": "Vivo Sem Login Rede 02",
       "FLAG": "vivo",
-      "Payload": "[rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "[rotate=OPTIONS;DELETE;GET;PUT;POST] / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.26.12.205",
@@ -250,7 +250,7 @@
       {
       "Name": "Tim Saldo Valido 03",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[lf]Host: vs.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: vs.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtszvpn.ilovebirds.site[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vs.timrecompensas.com.br",
@@ -310,7 +310,7 @@
       {
       "Name": "TIM DATAMI 03",
       "FLAG": "tim",
-      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vpn.cloudmi.datami.com",
