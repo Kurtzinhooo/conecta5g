@@ -1,6 +1,6 @@
 {
-      "Version": "5.157",
-      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 157\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
+      "Version": "5.158",
+      "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 158\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
       "Sms": "https://t.me/KurtzSSH",
@@ -170,47 +170,47 @@
       {
       "Name": "Vivo Controle 02",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "ADA.NS.CLOUDFLARE.COM#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyIP": "104.26.5.32#ADA.NS.CLOUDFLARE.COM#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Controle 03",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "101.us#104.19.240.25#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
+      "ProxyIP": "104.26.4.32#101.us#104.19.240.25#104.16.239.166#104.17.64.225#104.16.239.166#104.16.239.166#104.18.33.113",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Controle 04",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[crlf]Host: kurtzssh.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
+      "ProxyIP": "141.193.213.10#100.xxx.xxx.xxx#101.us#compre.vivo.com.br#101espn.com#104.18.99.70#104.18.28.182#104.18.33.113#104.19.239.25#104.19.240.93#104.19.241.93#104.17.64.225#172.67.188.168",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Controle 05",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "101.us",
+      "ProxyIP": "141.193.213.11#101.us",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Controle 06",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket websocket[realData][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.17.64.225",
