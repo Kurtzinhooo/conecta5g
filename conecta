@@ -1,5 +1,5 @@
 {
-      "Version": "5.158",
+      "Version": "5.159",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 158\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -28,22 +28,22 @@
       ],
       "Networks": [
       {
-      "Name": "Vivo Turbo 01",
+      "Name": "Vivo Especial 01",
       "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "loja.vivo.com.br#1.1.1.1#104.16.53.111",
+      "ProxyIP": "188.114.99.229#188.114.98.229#104.26.12.205#104.26.13.205#172.67.74.152",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Vivo Turbo 02",
       "FLAG": "vivo",
-      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.53.111#vpn.cloudmi.datami.com#vivo.com.br#loja.vivo.com.br",
+      "ProxyIP": "188.114.99.229#188.114.98.229#104.26.12.205#104.26.13.205#172.67.74.152",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -218,12 +218,12 @@
       "Info": "Proxy"
       },
       {
-      "Name": "TIM DATAMI 01",
+      "Name": "Tim Saldo Valido 0",
       "FLAG": "tim",
-      "Payload": "PATCH /cdn-cgi/trace HTTP/1.1[lf]Host: vpn.cloudmi.datami.com[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.3[crlf]Host: pre-onboarding-h.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: kurtzinho.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "vpn.cloudmi.datami.com#vivo.com.br",
+      "ProxyIP": "appbaqend.com#162.159.140.159#172.66.0.157#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
