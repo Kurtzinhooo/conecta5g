@@ -1,5 +1,5 @@
 {
-      "Version": "5.162",
+      "Version": "5.163",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 158\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -130,7 +130,7 @@
       {
       "Name": "Vivo Easy 01",
       "FLAG": "vivo",
-      "Payload": "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtszvpn.ilovebirds.site[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "PATCH / HTTP/1.1[crlf]Host: [host][crlf]Host: kurtzinho.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.41#104.18.6.41#172.64.150.8#vivomusica.vivo.com.br",
@@ -218,7 +218,17 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 0",
+      "Name": "Tim Saldo Valido 1",
+      "FLAG": "tim",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br;timrecompensas.com.br;api.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.4.18#162.159.140.159#add.customlinks.appsflyer.com#104.18.43.123#104.16.242.118#104.17.71.206#172.66.0.157#104.17.72.206",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Tim Saldo Valido 02",
       "FLAG": "tim",
       "Payload": "ACL / HTTP/1.3[crlf]Host: pre-onboarding-h.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL- // HTTP/1.3[crlf]Host: kurtzinho.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
@@ -228,17 +238,7 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 01",
-      "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "162.159.140.159#172.66.0.157#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
-      "Name": "Tim Saldo Valido 02",
+      "Name": "Tim Saldo Valido 03",
       "FLAG": "tim",
       "Payload": "ACL / HTTP/1.1[lf]Host: portal.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
@@ -248,9 +248,9 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 03",
+      "Name": "Tim Saldo Valido 04",
       "FLAG": "tim",
-      "Payload": "ACL / HTTP/1.1[lf]Host: vs.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtszvpn.ilovebirds.site[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+      "Payload": "ACL / HTTP/1.1[lf]Host: vs.timrecompensas.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vs.timrecompensas.com.br",
@@ -258,7 +258,7 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 04",
+      "Name": "Tim Saldo Valido 05",
       "FLAG": "tim",
       "Payload": "[split]ACL / HTTP/1.9[crlf]host: mtls.sandbox.c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: kurtzinho.shop[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
       "SNI": "",
@@ -268,7 +268,7 @@
       "Info": "Proxy"
       },      
       {
-      "Name": "Tim Saldo Valido 05",
+      "Name": "Tim Saldo Valido 06",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: www.maisvantagenstim.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
@@ -278,19 +278,9 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 06",
-      "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[lf]Host: dl.maisvantagenstim.com.br[lf][lf]AZRAEL / HTTP/1.1[lf]Host: kurtzinho.shop[lf]Upgrade: Websocket[lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "162.159.140.159#172.66.0.157vs.timrecompensas.com.br#portal.timrecompensas.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-      },
-      {
       "Name": "Tim Saldo Valido 07",
       "FLAG": "tim",
-      "Payload": "GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.5.18#162.159.140.159#172.66.0.157#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
@@ -300,7 +290,17 @@
       {
       "Name": "Tim Saldo Valido 08",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br;timrecompensas.com.br;api.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtszvpn.ilovebirds.site[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /-cgi/trace HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.5.18#162.159.140.159#172.66.0.157#vs.timrecompensas.com.br#portal.timrecompensas.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+      },
+      {
+      "Name": "Tim Saldo Valido 09",
+      "FLAG": "tim",
+      "Payload": "ACL /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=revive.timrecompensas.com.br;vs.timrecompensas.com.br;portal.timrecompensas.com.br;timrecompensas.com.br;api.timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.4.18#162.159.140.159#add.customlinks.appsflyer.com#104.18.43.123#104.16.242.118#104.17.71.206#172.66.0.157#104.17.72.206",
@@ -308,7 +308,7 @@
       "Info": "Proxy"
       },
       {
-      "Name": "Tim Saldo Valido 09",
+      "Name": "Tim Saldo Valido 010",
       "FLAG": "tim",
       "Payload": "CONNECT /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=convencao.maisvantagenstim.com.br;www.maisvantagenstim.com.br;dl.maisvantagenstim.com.br;apf.maisvantagenstim.com.br][crlf][lf][split][lf]GET- / HTTP/1.1[lf]Host: SEUDOMÍNIO[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf][lf]",
       "SNI": "",
@@ -353,7 +353,7 @@
       "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "135.148.12.218",
+      "ProxyIP": "179.127.16.155",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
@@ -363,7 +363,7 @@
       "Payload": "[split]PATCH / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf]Host: 5563745.group45.sites.hubspot.net;5840292.group42.sites.hubspot.net;714341g41.secure0121.hubspot.net[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]Service: Multi-spectro[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "135.148.12.218",
+      "ProxyIP": "179.127.16.155",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
@@ -372,7 +372,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "waze.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -382,7 +382,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "tiktok.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -392,7 +392,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "c.whatsapp.net",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -402,7 +402,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "media.whatsapp.net",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -412,7 +412,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.waze.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -422,7 +422,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -432,7 +432,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "api.whatsapp.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -442,7 +442,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "musicaclaro.com.br",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -452,7 +452,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.web.whatsapp.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -462,7 +462,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.youtube.com",
-      "TlsIP": "135.148.12.218",
+      "TlsIP": "179.127.16.155",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
