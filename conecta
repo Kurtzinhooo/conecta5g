@@ -1,5 +1,5 @@
 {
-      "Version": "5.166",
+      "Version": "5.167",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 158\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -220,30 +220,30 @@
       {
       "Name": "Tim Saldo Valido 1",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1\r\nHost: timrecompensas.com.br\r\n\n[split]\nGET- / HTTP/1.1\nHost: kurtzinho.shop\nConnection: Upgrade\nUpgrade: Websocket\n\n",
+      "Payload": "PUT / HTTP/1.1[crlf]Host: [rotate=bancah.com.br;bounce.mail.planos.tim.com.br][crlf][crlf][split]GET- / HTTP/1.1[crlf]Host: proxy.kurtzinho.shop[crlf] [crlf]GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]@TSTOPEPEED[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.4.18",
+      "ProxyIP": "bancah.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Tim Saldo Valido 02",
       "FLAG": "tim",
-      "Payload": "ACL /cdn-cgi/trace HTTP/1.1\r\nHost: timrecompensas.com.br\r\n\n[split]\nGET- / HTTP/1.1\nHost: kurtzinho.shop\nConnection: Upgrade\nUpgrade: Websocket\n\n",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=bancah.com.br;bounce.mail.planos.tim.com.br][crlf][crlf][split]GET- / HTTP/1.1[crlf]Host: [host][crlf] [crlf]GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]@TSTOPEPEED[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.5.18#104.18.4.18",
+      "ProxyIP": "bancah.com.br#104.18.5.18#104.18.4.18",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
       {
       "Name": "Tim Saldo Valido 03",
       "FLAG": "tim",
-      "Payload": "MOVE /cdn-cgi/trace HTTP/1.1[crlf]Host: [rotate=timrecompensas.com.br][crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: [rotate=bancah.com.br;bounce.mail.planos.tim.com.br][crlf][crlf][split]GET- / HTTP/1.1[crlf]Host: [host][crlf] [crlf]GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]@TSTOPEPEED[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "tim.alphaconectado.shop#104.18.5.18#104.18.4.18",
+      "ProxyIP": "tim.alphaconectado.shop#bancah.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -260,10 +260,10 @@
       {
       "Name": "Tim Saldo Valido 05",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: timrecompensas.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: kurtzinho.shop[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "ACL / HTTP/1.1[crlf]Host: [rotate=bancah.com.br;bounce.mail.planos.tim.com.br][crlf][crlf][split]GET- / HTTP/1.1[crlf]Host: [host][crlf] [crlf]GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]@TSTOPEPEED[crlf][split][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.5.18#104.18.4.18",
+      "ProxyIP": "bancah.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
