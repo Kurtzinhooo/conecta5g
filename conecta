@@ -1,5 +1,5 @@
 {
-      "Version": "5.167",
+      "Version": "5.168",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 158\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -230,10 +230,10 @@
       {
       "Name": "Tim Saldo Valido 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=bancah.com.br;bounce.mail.planos.tim.com.br][crlf][crlf][split]GET- / HTTP/1.1[crlf]Host: [host][crlf] [crlf]GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf]@TSTOPEPEED[crlf][split][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: ayabooks.com.br[crlf][crlf][split][crlf]GET- / HTTP/1.1[crlf]Host: proxy.kurtzinho.shop[lf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "bancah.com.br#104.18.5.18#104.18.4.18",
+      "ProxyIP": "ayabooks.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
