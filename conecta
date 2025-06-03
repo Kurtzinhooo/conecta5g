@@ -1,5 +1,5 @@
 {
-      "Version": "5.169",
+      "Version": "5.170",
       "ReleaseNotes": "Nova Atualização Disponível ✔️  MANTENHA O APLICATIVO SEMPRE ATUALIZANDO 📱 🆚 Versão: 158\n••••••••••••••••••• ••••••••••••••••••••••••••••••••\n🔰Funcionando 📌TIM  📌VIVO 📌CLARO 🗣️ Uma Dica, Recomendo Ter Dois Chip\n🤖 Caso uma Rede Caia VC Tem a outra\n🤖 Para se conectar Tranquilamente✔️ 🧑🏻‍💻 Qualquer dificuldade para se Conectar entre em contato\ 👍🏻
 👨‍💼 DESEJO A TODOS UMA BOA CONEXÃO 🌐",
       "UrlUpdate": "https://raw.githubusercontent.com/Kurtzinhooo/conecta5g/main/conecta",
@@ -53,7 +53,7 @@
       "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -63,7 +63,7 @@
       "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -73,7 +73,7 @@
       "Payload": "PATCH http://1.1.1.1rotate= buzzfeed.com ; mobile.adobe.com ;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate= buzzfeed.com ; myspace .com ; mobile.google.com ;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -83,7 +83,7 @@
       "Payload": "PROPPATCH http://mercadolivre.com.br HTTP/2[crlf]Host: http://mercadolivre.com.br[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -93,7 +93,7 @@
       "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: [host_port][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },
@@ -270,50 +270,50 @@
       {
       "Name": "Tim Saldo Expirado 01",
       "FLAG": "tim",
-      "Payload": "ACL wss://kurtzinho.shop HTTP/1.1[lf]Host: [rotate=google.es;www.flickr.com;foxnews.com;www.uc.com;tv.com;netfix.com;palcomp3.com;m.operamini.com;m.olx.com.br;www.sky.com;www.waze.com;ff.garena.com;www.hooq.tv;www.terra.com;salesrock.virginmobile.mx;www.yahoo.com;imgur.com;get.adobe.com;youtube.com;google.com;instagram.com;microsoft.com;akamai.net;1.cloudfront.net][lf]Upgrade: Websocket[lf][split][lf]",
+      "Payload": "HTTP/1.1[crlf] 200 Connection established\r\nHost: GET /? HTTP/2.0\r\nHost: youtube.com\r\n200 Connection established\r\nProxy-Connection: close\r\nConnection-Keep-true\r\nControl-Cache: no-cache\r\nContent-Length: 9999999999999999999\r\nUser-Agent: Yes \r\nContent-Encoding: 88888888\r\nContent-Language: 00000000\r\nContent-Length: 55555555\r\nContent-Location:33333333[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.28.182#104.19.240.25#104.18.29.182#104.19.239.25#104.19.242.25",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
       "Name": "Tim Saldo Expirado 02",
       "FLAG": "tim",
-      "Payload": "MOVE / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.135",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
       "Name": "Tim Saldo Expirado 03",
       "FLAG": "tim",
-      "Payload": "ACL /wss.html HTTP/1.1[lf]Host: kurtzinho.shop[lf]Expect: 100-tmyvpn[lf]Conexão: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "Payload": "[split]HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.17.64.225",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
       "Name": "Tim Saldo Expirado 04",
       "FLAG": "tim",
-      "Payload": "[delay_split] ACL / HTTP/1.1[crlf]Host:[rotate= 104.18.6.80;104.18.7.80;162.159.138.6;162.159.128.7;104.17.70.206;104.17.71.206;104.17.72.206;104.17.73.206;104.17.74.206;172.64.144.109;104.18.43.147;104.18.7.41][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "HTTP/ 2 HTTP/1.1 CONNECT HTTP/1.1[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
       {
       "Name": "Tim Saldo Expirado 05",
       "FLAG": "tim",
-      "Payload": "[split]PATCH / HTTP/1.1[crlf]Host: kurtzinho.shop[crlf]Upgrade: Websocket[crlf]Host: 5563745.group45.sites.hubspot.net;5840292.group42.sites.hubspot.net;714341g41.secure0121.hubspot.net[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]Service: Multi-spectro[crlf][crlf]",
+      "Payload": "HTTP/1.1[crlf] 200 Connection established\r\nHost: GET /? HTTP/2.0\r\nHost: youtube.com\r\n200 Connection established\r\nProxy-Connection: close\r\nConnection-Keep-true\r\nControl-Cache: no-cache\r\nContent-Length: 9999999999999999999\r\nUser-Agent: Yes \r\nContent-Encoding: 88888888\r\nContent-Language: 00000000\r\nContent-Length: 55555555\r\nContent-Location:33333333[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "179.127.16.155",
+      "ProxyIP": "179.127.16.148",
       "ProxyPort": "80",
       "Info": "Proxy"
       },      
@@ -322,7 +322,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "waze.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -332,7 +332,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "tiktok.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -342,7 +342,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "c.whatsapp.net",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -352,7 +352,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "media.whatsapp.net",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -362,7 +362,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.waze.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -372,7 +372,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -382,7 +382,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "api.whatsapp.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -392,7 +392,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "musicaclaro.com.br",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -402,7 +402,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.web.whatsapp.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
@@ -412,7 +412,7 @@
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.youtube.com",
-      "TlsIP": "179.127.16.155",
+      "TlsIP": "179.127.16.148",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
